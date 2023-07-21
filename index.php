@@ -1,4 +1,5 @@
 <?php
+include("includes/session-config-inc.php");
 include("includes/status-inc.php");
 ?>
 <!DOCTYPE html>
