@@ -1,5 +1,6 @@
 <?php
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+  include "session-config-inc.php";
   include "../classes/generate-otp-classes.php";
   include "../classes/login-classes.php";
   include "../classes/login-contr-classes.php";
